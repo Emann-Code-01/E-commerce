@@ -1,79 +1,285 @@
-:root {
-  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
-  line-height: 1.5;
-  font-weight: 400;
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 
-  color-scheme: light dark;
-  color: rgba(255, 255, 255, 0.87);
-  background-color: #242424;
+@import url('https://fonts.googleapis.com/css2?family=Recursive:slnt,CASL,CRSV,MONO@-15..0,0..1,0..1,0..1&display=swap');
 
-  font-synthesis: none;
-  text-rendering: optimizeLegibility;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-a {
-  font-weight: 500;
-  color: #646cff;
-  text-decoration: inherit;
-}
-a:hover {
-  color: #535bf2;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  margin: 0;
-  display: flex;
-  place-items: center;
-  min-width: 320px;
-  min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  background-color: #f0f0f0;
+  color: #333;
 }
 
 h1 {
-  font-size: 3.2em;
-  line-height: 1.1;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+h2 {
+  font-family: 'Recursive', sans-serif;
+  font-weight: 100;
+  font-size: 2rem;
+  color: #333;
+}
+
+h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 100;
+  font-size: 1.5rem;
+  color: #333;
+}
+
+h4 {
+  font-family: 'Recursive', sans-serif;
+  font-weight: 100;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+h5 {
+  font-family: 'Recursive', sans-serif;
+  font-weight: 100;
+  font-size: 1rem;
+  color: #333;
+}
+
+h6 {
+  font-family: 'Recursive', sans-serif;
+  font-weight: 100;
+  font-size: 0.8rem;
+  color: #333;
+}
+
+p {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #333;
+}
+
+a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #333;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a:visited {
+  color: #333;
+}
+
+a:active {
+  color: #333;
+}
+
+a:focus {
+  outline: none;
+}
+
+a:focus-visible {
+  outline: none;
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #333;
+  background-color: #f0f0f0;
+  border: none;
   cursor: pointer;
-  transition: border-color 0.25s;
 }
+
 button:hover {
-  border-color: #646cff;
+  background-color: #e0e0e0;
 }
-button:focus,
+
+button:active {
+  background-color: #d0d0d0;
+}
+
+button:focus {
+  outline: none;
+}
+
 button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  outline: none;
 }
 
-.card {
-  padding: 2em;
+input {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #333;
+  background-color: #f0f0f0;
+  border: none;
+  padding: 0.5rem;
 }
 
-#app {
-  max-width: 1280px;
+input:hover {
+  background-color: #e0e0e0;
+}
+
+input:active {
+  background-color: #d0d0d0;
+}
+
+input:focus {
+  outline: none;
+}
+
+input:focus-visible {
+  outline: none;
+}
+
+textarea {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #333;
+  background-color: #f0f0f0;
+  border: none;
+  padding: 0.5rem;
+}
+
+textarea:hover {
+  background-color: #e0e0e0;
+}
+
+textarea:active {
+  background-color: #d0d0d0;
+}
+
+textarea:focus {
+  outline: none;
+}
+
+textarea:focus-visible {
+  outline: none;
+}
+
+ul {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #333;
+}
+
+ol {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #333;
+}
+
+li {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #333;
+}
+
+li:hover {
+  text-decoration: underline;
+}
+
+li:active {
+  text-decoration: underline;
+}
+
+li:focus {
+  outline: none;
+}
+
+li:focus-visible {
+  outline: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+img:hover {
+  cursor: pointer;
+}
+
+img:active {
+  cursor: pointer;
+}
+
+img:focus {
+  outline: none;
+}
+
+img:focus-visible {
+  outline: none;
+}
+
+.container {
+  max-width: 1200px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  padding: 1rem;
 }
 
-@media (prefers-color-scheme: light) {
-  :root {
-    color: #213547;
-    background-color: #ffffff;
-  }
-  a:hover {
-    color: #747bff;
-  }
-  button {
-    background-color: #f9f9f9;
-  }
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 -1rem;
+}
+
+.col {
+  flex: 1;
+  padding: 0 1rem;
+}
+
+.col-1 {
+  flex: 0 0 8.33%;
+}
+
+.col-2 {
+  flex: 0 0 16.66%;
+}
+
+.col-3 {
+  flex: 0 0 25%;
+}
+
+.col-4 {
+  flex: 0 0 33.33%;
+}
+
+.col-5 {
+  flex: 0 0 41.66%;
+}
+
+.col-6 {
+  flex: 0 0 50%;
+}
+
+.col-7 {
+  flex: 0 0 58.33%;
+}
+
+.col-8 {
+  flex: 0 0 66.66%;
+}
+
+.col-9 {
+  flex: 0 0 75%;
+}
+
+.col-10 {
+  flex: 0 0 83.33%;
 }
