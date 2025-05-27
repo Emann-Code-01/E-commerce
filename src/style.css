@@ -1,6 +1,120 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/*@tailwind base;
+@tailwind components;
+@tailwind utilities;*/
 
-@import url('https://fonts.googleapis.com/css2?family=Recursive:slnt,CASL,CRSV,MONO@-15..0,0..1,0..1,0..1&display=swap');
+/* This file contains the global styles for the application */
+/* ...existing code... */
+
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/Fonts/poppins/Poppins-Thin.ttf') format('truetype');
+  font-weight: 100;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/Fonts/poppins/Poppins-ThinItalic.ttf') format('truetype');
+  font-weight: 100;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/Fonts/poppins/Poppins-ExtraLight.ttf') format('truetype');
+  font-weight: 200;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/Fonts/poppins/Poppins-ExtraLightItalic.ttf') format('truetype');
+  font-weight: 200;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/Fonts/poppins/Poppins-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/Fonts/poppins/Poppins-LightItalic.ttf') format('truetype');
+  font-weight: 300;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/Fonts/poppins/Poppins-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/Fonts/poppins/Poppins-Italic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/Fonts/poppins/Poppins-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/Fonts/poppins/Poppins-MediumItalic.ttf') format('truetype');
+  font-weight: 500;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/Fonts/poppins/Poppins-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/Fonts/poppins/Poppins-SemiBoldItalic.ttf') format('truetype');
+  font-weight: 600;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/Fonts/poppins/Poppins-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/Fonts/poppins/Poppins-BoldItalic.ttf') format('truetype');
+  font-weight: 700;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/Fonts/poppins/Poppins-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/Fonts/poppins/Poppins-ExtraBoldItalic.ttf') format('truetype');
+  font-weight: 800;
+  font-style: italic;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/Fonts/poppins/Poppins-Black.ttf') format('truetype');
+  font-weight: 900;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Poppins';
+  src: url('./assets/Fonts/poppins/Poppins-BlackItalic.ttf') format('truetype');
+  font-weight: 900;
+  font-style: italic;
+}
+
+/* ...existing code... */
 
 * {
   margin: 0;
@@ -10,7 +124,7 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #f0f0f0;
+  background-color: #ffff;
   color: #333;
 }
 
@@ -18,56 +132,48 @@ h1 {
   font-family: 'Poppins', sans-serif;
   font-weight: 100;
   font-size: 2.5rem;
-  color: #333;
 }
 
 h2 {
-  font-family: 'Recursive', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 100;
   font-size: 2rem;
-  color: #333;
 }
 
 h3 {
   font-family: 'Poppins', sans-serif;
   font-weight: 100;
   font-size: 1.5rem;
-  color: #333;
 }
 
 h4 {
-  font-family: 'Recursive', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 100;
   font-size: 1.2rem;
-  color: #333;
 }
 
 h5 {
-  font-family: 'Recursive', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 100;
   font-size: 1rem;
-  color: #333;
 }
 
 h6 {
-  font-family: 'Recursive', sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-weight: 100;
   font-size: 0.8rem;
-  color: #333;
 }
 
 p {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  color: #333;
 }
 
 a {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  color: #333;
   text-decoration: none;
 }
 
@@ -95,8 +201,6 @@ button {
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
   font-size: 1rem;
-  color: #333;
-  background-color: #f0f0f0;
   border: none;
   cursor: pointer;
 }
@@ -283,3 +387,25 @@ img:focus-visible {
 .col-10 {
   flex: 0 0 83.33%;
 }
+/* use 0px when you don't want it to show the scroll-bar or else any other pixel*/  
+::-webkit-scrollbar {
+  width: 0px;
+}
+/*
+::-webkit-scrollbar-track {
+  background: #1a1a1a;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #444;
+  border-radius: 5px;
+  border: 2px solid #1a1a1a;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #666;
+}
+::-webkit-scrollbar-thumb:active {
+  background-color: #888;
+}
+::-webkit-scrollbar-corner {
+  background: #1a1a1a;
+}*/
